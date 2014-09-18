@@ -57,6 +57,6 @@ ArrayList<String> contentSpanArr = new ArrayList<String>();
 		}
 	}
 
-其它需要朋友自己在安装上这个Demo试一下就知道了，这个例子没有服务器是一个本地的，上面那个方法用到网络时才会用到
+其它需要朋友自己在安装上这个Demo试一下就知道了，这个例子没有服务器是一个本地的，上面那个方法用到网络时才会用到。
 
 If you have issue ,please by email: wenbohtone@gmail.com
