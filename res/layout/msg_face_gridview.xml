@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/msg_face_gv"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/five"
+    android:horizontalSpacing="@dimen/five"
+    android:numColumns="6"
+    android:verticalSpacing="@dimen/five" >
+
+</GridView>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/icon_jw_send_layou_bar"
+        android:minHeight="60dip"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/ten"
+        android:paddingRight="@dimen/ten" >
+
+        <LinearLayout
+            android:id="@+id/tool_left_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/btn_to_face"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/ten"
+                android:background="@drawable/icon_jw_msg_add_face_btn_nor" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/tool_right_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/btnSend"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:text="发送"
+                android:textColor="#ff000000"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/tool_center_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_toLeftOf="@id/tool_right_layout"
+            android:layout_toRightOf="@id/tool_left_layout"
+            android:orientation="horizontal" >
+
+            <EditText
+                android:id="@+id/txtMessage"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5.0dip"
+                android:layout_marginRight="@dimen/ten"
+                android:layout_marginTop="5.0dip"
+                android:background="@drawable/icon_jw_send_message_edit_bg"
+                android:hint="输入消息内容"
+                android:maxLength="500"
+                android:maxLines="3"
+                android:minHeight="40dip"
+                android:textSize="15sp"
+                android:visibility="visible" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>
