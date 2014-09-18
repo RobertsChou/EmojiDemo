@@ -5,7 +5,7 @@ EmojiDemo
 
 服务器是PHP,网络数据传输格式是json字符串，下面的简要的贴一下主要的代码：
 
-需要注意的地方: 服务器端接收到的字段先解析不要直接使用json中的字段，然后再SetText:
+需要注意的地方: 服务器端接收到的字段先解析不要直接使用json中的字段，然后再SetText，下面是接受服务器解析的方法，实际上就是去掉方括号的过程：
 
 ArrayList<String> contentSpanArr = new ArrayList<String>();
 
@@ -56,5 +56,7 @@ ArrayList<String> contentSpanArr = new ArrayList<String>();
 			return;
 		}
 	}
+
+其它需要朋友自己在安装上这个Demo试一下就知道了，这个例子没有服务器是一个本地的，上面那个方法用到网络时才会用到
 
 If you have issue ,please by email: wenbohtone@gmail.com
